@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # configure web servers for deployment
+
 sudo apt-get install nginx
 sudo mkdir -p /data/web_static/{shared,releases/test}
 echo "<html>
